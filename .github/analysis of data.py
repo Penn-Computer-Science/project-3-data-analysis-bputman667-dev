@@ -31,3 +31,18 @@ print("-_"*20)
 print("first student data") 
 print(fishmanData.iloc[0])
 
+print("-_"*20)
+print("avg moxie/gustor per num of fishmen") 
+print(fishmanData.groupby("numFishmen")["moxieAndGusto"].mean())
+
+print("-_"*20)
+print("avg trustworthiness by sympathy level") 
+print(fishmanData.groupby("sympathetic")["trustworthy"].mean())
+
+print("-_"*20)
+print("top 3 students by sympathy") 
+print(fishmanData.sort_values(by="sympathetic", ascending=False).head(3))
+
+print("-_"*20)
+print("top 3 students by moxie/gusto") 
+print(fishmanData.sort_values(by="moxieAndGusto", ascending=False).head(3))

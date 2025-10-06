@@ -1,10 +1,10 @@
-names,worried,sympathetic,moxieAndGusto,numFishmen,squimbleAndGwibble,trustworthy,phLevel
+name,worriedness,sympathy,moxieAndGusto,numFishmen,squimbleAndGwibble,trustworthiness,phLevel
 N,1,2,1,0,1,10,1
 A,10,1,1,0,1,1,10
 D,2,8,1,1,1,10,7
 V ,5,5,1,0,1,10,6
 K,1,5,1,0,1,1,7
-E Foster,1,10,10,2,10,6,1
+EFoster,1,10,10,2,10,6,1
 M,1,10,1,2,10,10,5
 A,1,5,3,0,3,7,5
 Nugget-man,10,1,6,2,1,10,7

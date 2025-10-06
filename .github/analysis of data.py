@@ -37,12 +37,30 @@ print(fishmanData.groupby("numFishmen")["moxieAndGusto"].mean())
 
 print("-_"*20)
 print("avg trustworthiness by sympathy level") 
-print(fishmanData.groupby("sympathetic")["trustworthy"].mean())
+print(fishmanData.groupby("sympathy")["trustworthiness"].mean())
 
 print("-_"*20)
 print("top 3 students by sympathy") 
-print(fishmanData.sort_values(by="sympathetic", ascending=False).head(3))
+print(fishmanData.sort_values(by="sympathy", ascending=False).head(3))
 
 print("-_"*20)
 print("top 3 students by moxie/gusto") 
 print(fishmanData.sort_values(by="moxieAndGusto", ascending=False).head(3))
+
+fishmanData.groupby("sympathy")["trustworthiness"].mean().plot(
+    kind='bar',
+    xlabel='Sympathy',
+    ylabel='trustworthiness'
+)
+plt.show()
+fishmanData.groupby("sympathy")["moxieAndGusto"].mean().plot(
+    kind='line',
+    xlabel='sympathy',
+    ylabel='moxieAndGusto'
+)
+plt.show()
+fishmanData["numFishmen"].plot(
+    kind='hist',
+    bins=5
+)
+plt.show()

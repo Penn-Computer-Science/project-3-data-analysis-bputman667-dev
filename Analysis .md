@@ -9,7 +9,7 @@
 
 ## Survey Information
 - **Survey Topic:** The surver is about the fishman and how people feel about him
-- **Survey Link:** [Click here to view survey](https://example.com)
+- **Survey Link:** [Click here to view survey](https://docs.google.com/forms/d/e/1FAIpQLSeyM_zoXQXFFSnJfz9SmkpsJOnuOwtXMFT-SdAglQ0lxN33ww/viewform?usp=header)
 - **Number of Responses:** 10 real, 20 fake
 
 ---
@@ -55,15 +55,15 @@ We found that overall, students who had a sympathy level of 2 were both the most
 
 ## Reflection
 Answer briefly:
-- What went well in your project?
-- What was the most challenging part?
-- If you had more time, what would you do differently?
+- What went well in your project? In general, just about everything went well. The older data anlysis assignment provide the necessary code for finishing this project, so I was able to get the project done quickly.
+- What was the most challenging part? Probably the hardest part of this was deciding which charts to do, as well as transferring the data from the google from into the csv.
+- If you had more time, what would you do differently? If I had more time, I would likely try to get an actual survey out instead of a joke one (or maybe get more responses, I'm not sure which one, maybe both)
 
 ---
 
 ### Submission Checklist
-- [ ] Link to survey included
-- [ ] Questions listed
-- [ ] Raw data file attached or linked
-- [ ] 3+ charts created and linked/embedded
-- [ ] Data analysis section filled in
+- [x] Link to survey included
+- [x] Questions listed
+- [x] Raw data file attached or linked
+- [x] 3+ charts created and linked/embedded
+- [x] Data analysis section filled in
